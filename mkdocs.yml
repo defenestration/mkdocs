@@ -1,9 +1,9 @@
 site_name: Test docs
 site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_author: 'Defenestration'
 docs_dir: docs/
-repo_name: 'mhausenblas/mkdocs-template'
-repo_url: 'https://github.com/mhausenblas/mkdocs-template'
+repo_name: 'defenestration/mkdocs'
+repo_url: 'https://github.com/defenestration/mkdocs'
 nav:
     - Home: index.md
 theme:
