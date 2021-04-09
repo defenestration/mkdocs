@@ -10,3 +10,6 @@ nav:
 theme:
   name: 'material'
   nav_style: dark
+plugins:
+- search
+- tags:
