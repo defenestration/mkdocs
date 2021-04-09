@@ -12,4 +12,4 @@ theme:
   nav_style: dark
 plugins:
 - search
-- tags:
+# - tags:
