@@ -1,3 +1,9 @@
+a link
+
+https://google.com
+
+or like this [link](https://yahoo.com)
+
 ## Sample
 
 One more, finally. Or not? :)

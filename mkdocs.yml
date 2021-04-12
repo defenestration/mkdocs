@@ -11,15 +11,6 @@ theme:
   name: material
   palette:
     # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: orange
-      # accent: amber
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -28,8 +19,19 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      # accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
   features:
     - navigation.top
 plugins:
 - search
-# - tags:
+# automatically link 'bare' urls
+markdown_extensions:
+- pymdownx.magiclink
+
