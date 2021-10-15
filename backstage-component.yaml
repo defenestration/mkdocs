@@ -8,6 +8,7 @@ metadata:
   annotations:
     #example.com/service-discovery: artistweb
     circleci.com/project-slug: github/defenestration/mkdocs
+    backstage.io/techdocs-ref: docs
   tags:
     - docs
     - it
