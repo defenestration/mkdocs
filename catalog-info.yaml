@@ -7,8 +7,9 @@ metadata:
     example.com/custom: labelll
   annotations:
     #example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/defenestration/mkdocs
-    backstage.io/techdocs-ref: dir:.
+    #     circleci.com/project-slug: github/defenestration/mkdocs
+    #     backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref:  url:https://github.com/TechSmith/defenestration/mkdocs.wiki.git
   tags:
     - docs
     - it
@@ -18,6 +19,6 @@ metadata:
       icon: dashboard
 spec:
   type: docs
-  lifecycle: internal
+  lifecycle: experemental
   owner: defenestration
   system: public-websites
