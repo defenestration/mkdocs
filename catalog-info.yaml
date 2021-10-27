@@ -9,7 +9,7 @@ metadata:
     #example.com/service-discovery: artistweb
     #     circleci.com/project-slug: github/defenestration/mkdocs
     #     backstage.io/techdocs-ref: dir:.
-    backstage.io/techdocs-ref:  url:https://github.com/TechSmith/defenestration/mkdocs.wiki.git
+    backstage.io/techdocs-ref:  url:https://github.com/defenestration/mkdocs.wiki.git
     backstage.io/kubernetes-id: backstage
   tags:
     - docs
