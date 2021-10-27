@@ -10,7 +10,7 @@ metadata:
     #     circleci.com/project-slug: github/defenestration/mkdocs
     #     backstage.io/techdocs-ref: dir:.
     backstage.io/techdocs-ref:  url:https://github.com/TechSmith/defenestration/mkdocs.wiki.git
-    backstage.io/kubernetes-id: minikube
+    backstage.io/kubernetes-id: backstage
   tags:
     - docs
     - it
