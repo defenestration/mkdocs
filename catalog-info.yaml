@@ -11,6 +11,7 @@ metadata:
     #     backstage.io/techdocs-ref: dir:.
     backstage.io/techdocs-ref:  url:https://github.com/defenestration/mkdocs.wiki.git
     backstage.io/kubernetes-id: backstage
+    dev.azure.com/project-repo: Backstage
   tags:
     - docs
     - it
